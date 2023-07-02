@@ -1,8 +1,12 @@
+<script setup>
+  const colorMode = useColorMode();
+</script>
 <template>
   <div class="flex bg-gray-50/10 w-full py-10 px-5 z-10 fixed items-center justify-between blackdrop-blur-sm dark:bg-gray-900/10">
     <nuxt-link to="">
       <svg 
         class="h-12 w-12"
+        :class="{'text-gray-50' :$colorMode.preference === 'dark'}"
         fill="currentColor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
@@ -20,6 +24,7 @@
         class="font-medium text-lg text-dark-900/50 dark:text-gray-50/80 hover:text-dark-900">Home</nuxt-link>
       <nuxt-link to="/about" 
         class="font-medium text-lg text-dark-900/50 dark:text-gray-50/80 hover:text-dark-900">About</nuxt-link>
+        <switch-mode/>
     </nav>
   </div>
 </template>
