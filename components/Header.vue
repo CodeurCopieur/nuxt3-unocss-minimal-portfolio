@@ -2,7 +2,7 @@
   const colorMode = useColorMode();
 </script>
 <template>
-  <div class="flex bg-gray-50/10 w-full py-10 px-5 z-10 fixed items-center justify-between blackdrop-blur-sm dark:bg-gray-900/10">
+  <div class="flex w-full py-10 px-5 z-10 top-0 fixed items-center justify-between backdrop-blur-md dark:bg-gray-900/10">
     <nuxt-link to="">
       <svg 
         class="h-12 w-12"
