@@ -1,5 +1,5 @@
 <template>
-  <div class="grid gap-y-8 grid-cols-1 md:grid-cols-4 lg:gap-4">
+  <div class="grid gap-y-8 grid-cols-1 md:grid-cols-4 md:gap-4 px-5 xs:px-0">
     <div class="rounded-xl h80 col-span-2 overflow-hidden group">
       <!-- Image -->
       <Image src="https://plus.unsplash.com/premium_photo-1672784159099-3d57f2126d43?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" />
