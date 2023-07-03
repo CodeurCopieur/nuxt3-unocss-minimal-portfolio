@@ -4,7 +4,8 @@
       Lorem ipsum dolor sit amet consectetur adipisicing elit.
     </h1>
     <div class="py-40">
-
+      <!-- Gallery -->
+      <Gallery />
     </div>
   </div>
 </template>
